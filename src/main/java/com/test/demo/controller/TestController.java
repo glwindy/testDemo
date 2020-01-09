@@ -16,4 +16,10 @@ public class TestController {
     public String getTest() {
         return "This is a test";
     }
+
+    @ApiOperation("测试新增接口")
+    @GetMapping("/getBB")
+    public String getTestBB() {
+        return "This is a testBB";
+    }
 }
