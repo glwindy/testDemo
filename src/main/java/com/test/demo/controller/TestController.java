@@ -23,7 +23,7 @@ public class TestController {
     @ApiOperation("测试新增接口")
     @GetMapping("/getBB")
     public String getTestBB() {
-        logger.info("测试新增打印testBB");
+        logger.info("测试新增打印testBB---------------");
         return "This is a testBB";
     }
 }
